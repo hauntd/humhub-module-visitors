@@ -1,0 +1,18 @@
+{
+    "id": "visitors",
+    "name": "Visitors",
+    "description": "Allows you to track guests on your profile",
+    "keywords": [
+        "profile", "views", "visitors", "visits"
+    ],
+    "authors": [
+        {
+            "name": "Alexander Kononenko"
+        }
+    ],
+    "version": "1.0",
+    "screenshots": [
+        "assets/screen1.jpg",
+        "assets/screen2.jpg"
+    ]
+}
