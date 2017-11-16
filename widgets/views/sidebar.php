@@ -4,8 +4,9 @@ use yii\helpers\Html;
 
 /* @var $visits[] \humhub\modules\visitors\models\Visit */
 ?>
-<div class="panel panel-default" id="visitors-panel">
-    <?php humhub\widgets\PanelMenu::widget(['id' => 'visitors-panel']); ?>
+
+<div class="panel panel-default panel-discordapp" id="panel-visitors">
+    <?= \humhub\widgets\PanelMenu::widget(['id' => 'panel-visitors']); ?>
     <div class="panel-heading">
         <?= Yii::t('VisitorsModule.base', '<strong>Users</strong> who visited your profile'); ?>
     </div>
