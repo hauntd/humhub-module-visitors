@@ -24,8 +24,8 @@ class ConfigController extends \humhub\modules\admin\components\Controller
             return $this->refresh();
         }
 
-        return $this->render('config', array(
-            'model' => $form
-        ));
+        return $this->render('config', [
+            'model' => $form,
+        ]);
     }
 }
